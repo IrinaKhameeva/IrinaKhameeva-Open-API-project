@@ -2,7 +2,8 @@ const cardCoffee = document.getElementById("card");
 
 function generateTable(targetId, data) {
   let parent = document.createElement("div");
- 
+  parent.className = "flip-cards-table";
+
   for (const element of data) {
     //document.getElementById("coffee-title").innerHTML=element.title;
     //console.log(elment);
